@@ -1,7 +1,7 @@
 r"""
 SplashBoard Version 0.2
 
-Created by Evan Cox - http://www.evancox.net/ - coxevan90@gmail.com - @evanpcox
+Created by Evan Cox - http://www.evancox.net/ - coxevan90[ at ]gmail.com - @evanpcox
 
 **** CURRENTLY DOES NOT WORK WITHOUT PIL/PILLOW ****
 
@@ -29,9 +29,7 @@ PLANNED FEATURES -
     Flag images/add them to a new Pinterest board on the users account.
 """
 
-__author__ = 'evancox | @evanpcox | coxevan90@gmail.com'
-HELP_URL = 'http://www.evancox.net/'
-BUG_REPORT = 'http://www.evancox.net/'
+__author__ = 'evancox | @evanpcox | coxevan90[ at ]gmail.com'
 
 import maya.cmds as mc
 import pymel.core as py
@@ -46,5 +44,6 @@ import os
 
 reload(gui)
 reload(definitions)
+
 splash_instance = gui.SplashBoard()
 splash_instance.gui()
